@@ -7,25 +7,70 @@
     <link rel="stylesheet" href="dev.css">
 </head>
 <body>
-    <header>
+    <!-- Header Section -->
+    <header class="card fade-in">
         <h1>Hello, World!</h1>
         <p>Welcome to my simple multi-language template.</p>
     </header>
 
-    <main>
-        <section>
+    <!-- Main Content Section -->
+    <main class="container">
+        <section class="card">
             <h2>About</h2>
-            <p>This is a basic example of an HTML file with linked CSS and JavaScript.</p>
+            <p>This is a basic example of an HTML file with linked CSS and JavaScript. This template demonstrates how to use CSS to style common HTML elements and create a responsive layout. Feel free to explore the interactive features and try out the buttons and forms!</p>
         </section>
 
-        <section>
+        <section class="card">
             <h2>Interactive Button</h2>
-            <button id="alertButton">Click Me</button>
+            <p>Click the button below to trigger an alert:</p>
+            <button id="alertButton" class="btn-primary">Click Me</button>
+        </section>
+
+        <!-- Form Section -->
+        <section class="card">
+            <h2>Contact Form</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <textarea name="message" placeholder="Enter your message" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <!-- Table Section -->
+        <section class="card">
+            <h2>User Table</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Registration Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>johndoe</td>
+                        <td>johndoe@example.com</td>
+                        <td>2025-01-20</td>
+                    </tr>
+                    <tr>
+                        <td>janedoe</td>
+                        <td>janedoe@example.com</td>
+                        <td>2025-01-22</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
 
-    <footer>
+    <!-- Footer Section -->
+    <footer class="fade-in">
         <p>&copy; 2025 My Simple Template</p>
+        <p>Follow us on 
+            <a href="https://twitter.com" target="_blank">Twitter</a> | 
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+        </p>
     </footer>
 
     <script src="dev.js"></script>
