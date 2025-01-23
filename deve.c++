@@ -175,6 +175,8 @@ int main() {
     // Réapprovisionnement de produits
     magasin.reapprovisionnerProduit("Laptop", 5);  // Réapprovisionnement du laptop
 
+    magasin.reapprovisionnerProduit("Tablette", 20); 
+
     // Affichage des produits après réapprovisionnement
     magasin.afficherProduits();
 
