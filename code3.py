@@ -166,7 +166,7 @@ def main():
             break
 
         else:
-            print("Choix invalide. Veuillez réessayer.")
+            print("Votre choix est invalide. Veuillez réessayer.")
 
 if __name__ == "__main__":
     main()
