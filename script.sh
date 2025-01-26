@@ -43,6 +43,6 @@ if [ $? -eq 0 ]; then
     echo "Sauvegarde effectuée avec succès !"
     echo "Tous les fichiers ont été copiés vers '$DEST_SUBFOLDER'."
 else
-    echo "Erreur lors de la sauvegarde. Veuillez vérifier vos dossiers."
+    echo "Il y a eu une erreur lors de la sauvegarde. Veuillez vérifier vos dossiers."
     exit 1
 fi
