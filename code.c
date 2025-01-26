@@ -28,7 +28,7 @@ void addContact(Contact contacts[], int *numContacts) {
     fgets(contacts[*numContacts].phone, sizeof(contacts[*numContacts].phone), stdin);
     contacts[*numContacts].phone[strcspn(contacts[*numContacts].phone, "\n")] = '\0';  // Supprimer le \n
 
-    printf("Entrez l'email du contact: ");
+    printf("Entrez l'adresse mail du contact: ");
     fgets(contacts[*numContacts].email, sizeof(contacts[*numContacts].email), stdin);
     contacts[*numContacts].email[strcspn(contacts[*numContacts].email, "\n")] = '\0';  // Supprimer le \n
 
