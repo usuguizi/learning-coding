@@ -45,8 +45,9 @@ def calculator():
         elif choice == '4':
             print(f"{num1} / {num2} = {divide(num1, num2)}")
     else:
-        print("Choix invalide.")
+        print("Choix invalide veuillez choisir un autre.")
 
 # Appel de la fonction calculatrice
 if __name__ == "__main__":
     calculator()
+
