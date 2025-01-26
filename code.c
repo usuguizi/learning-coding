@@ -33,7 +33,7 @@ void addContact(Contact contacts[], int *numContacts) {
     contacts[*numContacts].email[strcspn(contacts[*numContacts].email, "\n")] = '\0';  // Supprimer le \n
 
     (*numContacts)++;
-    printf("Contact ajouté avec succès !\n\n");
+    printf("Le Contact a été ajouté avec succès !\n\n");
 }
 
 // Fonction pour supprimer un contact
