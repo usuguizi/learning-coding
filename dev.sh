@@ -74,7 +74,7 @@ usage() {
     echo "  <source_directory>  : Le répertoire à sauvegarder."
     echo "  <backup_directory>  : Le répertoire où la sauvegarde sera stockée."
     echo "  <log_file>          : Le fichier journal pour enregistrer l'activité."
-    echo "  <email>             : L'email où les notifications seront envoyées."
+    echo "  <email>             : L'adresse mail où les notifications seront envoyées."
     exit 1
 }
 
