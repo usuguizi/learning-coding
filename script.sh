@@ -40,7 +40,7 @@ cp -r "$SOURCE"/* "$DEST_SUBFOLDER"
 
 # Vérifie le succès de la copie
 if [ $? -eq 0 ]; then
-    echo "Sauvegarde effectuée avec succès !"
+    echo "Sauvegarde a été effectuée avec succès !"
     echo "Tous les fichiers ont été copiés vers '$DEST_SUBFOLDER'."
 else
     echo "Il y a eu une erreur lors de la sauvegarde. Veuillez vérifier vos dossiers."
