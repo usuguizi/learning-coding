@@ -79,7 +79,7 @@ void save_history() {
 // Afficher l'historique des calculs
 void display_history() {
     if (history_index == 0) {
-        printf("Aucun calcul dans l'historique.\n");
+        printf("Il n'y a aucun calcul dans l'historique.\n");
         return;
     }
     printf("Historique des calculs :\n");
