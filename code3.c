@@ -178,6 +178,6 @@ void searchBook() {
     }
 
     if (!found) {
-        printf("\nAucun livre trouvé ne correspond au mot-clé '%s'.\n", keyword);
+        printf("\nIl n'y a aucun livre qui correspond au mot-clé '%s'.\n", keyword);
     }
 }
