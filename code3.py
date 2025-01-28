@@ -74,9 +74,9 @@ class Inventory:
 
     def display_inventory(self):
         if not self.products:
-            print("Inventaire vide.")
+            print("L'inventaire est vide.")
             return
-        print("\nInventaire complet :")
+        print("\nL'inventaire est complet :")
         for product in self.products:
             print(f"ID: {product.product_id}, Nom: {product.name}, Catégorie: {product.category}, Prix: {product.price}, Quantité: {product.quantity}")
 
