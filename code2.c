@@ -112,7 +112,7 @@ void menu() {
         scanf("%d", &choice);
 
         if (choice == 12) {
-            printf("Merci d'avoir utilisé la calculatrice. Au revoir!\n");
+            printf("Merci d'avoir utilisé la calculatrice. Au revoir et à la prochaine!\n");
             save_history();  // Sauvegarder l'historique avant de quitter
             break;
         }
