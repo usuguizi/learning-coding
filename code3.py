@@ -116,7 +116,7 @@ def main():
         print("8. Quitter")
         print("============================================")
 
-        choice = input("Veuillez Entrez votre choix : ")
+        choice = input("Veuillez entrez votre choix : ")
 
         if choice == "1":
             product_id = input("Entrez l'ID du produit : ")
