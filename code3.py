@@ -147,7 +147,7 @@ def main():
             )
 
         elif choice == "4":
-            keyword = input("Entrez un mot-clé pour rechercher un produit : ")
+            keyword = input("Veuillez Entrez un mot-clé pour rechercher un produit : ")
             inventory.search_product(keyword)
 
         elif choice == "5":
