@@ -70,7 +70,7 @@ class Inventory:
             for product in results:
                 print(f"ID: {product.product_id}, Nom: {product.name}, Catégorie: {product.category}, Prix: {product.price}, Quantité: {product.quantity}")
         else:
-            print("Aucun produit correspondant trouvé.")
+            print("Aucun produit correspond à votre recherche et n'a été trouvé.")
 
     def display_inventory(self):
         if not self.products:
