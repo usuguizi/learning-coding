@@ -158,7 +158,7 @@ def main():
             inventory.save_to_file(filename)
 
         elif choice == "7":
-            filename = input("Entrez le nom du fichier à charger : ")
+            filename = input("Veuillez Entrez le nom du fichier à charger : ")
             inventory.load_from_file(filename)
 
         elif choice == "8":
