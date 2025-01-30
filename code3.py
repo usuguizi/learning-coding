@@ -154,7 +154,7 @@ def main():
             inventory.display_inventory()
 
         elif choice == "6":
-            filename = input("Entrez le nom du fichier pour sauvegarder : ")
+            filename = input("Veuillez Entrez le nom du fichier pour sauvegarder : ")
             inventory.save_to_file(filename)
 
         elif choice == "7":
