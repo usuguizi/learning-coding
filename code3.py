@@ -147,22 +147,22 @@ def main():
             )
 
         elif choice == "4":
-            keyword = input("Veuillez Entrez un mot-clé pour rechercher un produit : ")
+            keyword = input("Veuillez entrez un mot-clé pour rechercher un produit : ")
             inventory.search_product(keyword)
 
         elif choice == "5":
             inventory.display_inventory()
 
         elif choice == "6":
-            filename = input("Veuillez Entrez le nom du fichier pour sauvegarder : ")
+            filename = input("Veuillez entrez le nom du fichier pour sauvegarder : ")
             inventory.save_to_file(filename)
 
         elif choice == "7":
-            filename = input("Veuillez Entrez le nom du fichier à charger : ")
+            filename = input("Veuillez entrez le nom du fichier à charger : ")
             inventory.load_from_file(filename)
 
         elif choice == "8":
-            print("Merci d'avoir utilisé le système de gestion d'inventaire !")
+            print("Je vous remercie d'avoir utilisé le système de gestion d'inventaire !")
             break
 
         else:
