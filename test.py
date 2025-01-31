@@ -19,7 +19,7 @@ def divide(x, y):
 
 # Fonction pour afficher le menu et obtenir la saisie de l'utilisateur
 def calculator():
-    print("Calculatrice en Python")
+    print("Une super Calculatrice en Python")
     print("Choisissez une opération :")
     print("1. Addition")
     print("2. Soustraction")
