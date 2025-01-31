@@ -47,7 +47,7 @@ class Inventory:
                 self.products.remove(product)
                 print(f"Produit supprimé : {product.name}")
                 return
-        print("Produit non trouvé.")
+        print("Le produit n'a pas été trouvé.")
 
     def update_product(self, product_id, name=None, category=None, price=None, quantity=None):
         for product in self.products:
