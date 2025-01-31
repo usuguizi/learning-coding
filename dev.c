@@ -23,7 +23,7 @@ int main() {
         } else if (guess < number) {
             printf("Too low! Try again.\n");
         } else {
-            printf("Correct! You've guessed the number in %d attempts.\n", attempts);
+            printf("Congratulations! You've guessed the number in %d attempts.\n", attempts);
         }
     } while (guess != number);
 
