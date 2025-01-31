@@ -60,7 +60,7 @@ class Inventory:
                     product.price = price
                 if quantity is not None:
                     product.quantity = quantity
-                print(f"Produit mis à jour : {product.name}")
+                print(f"Le produit mis à jour : {product.name}")
                 return
         print("Produit non trouvé.")
 
