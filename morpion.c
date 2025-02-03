@@ -17,7 +17,7 @@ int main() {
     char joueurActuel = 'X';
     int jeuEnCours = 1;
 
-    printf("Bienvenue dans le jeudu Morpion !\n");
+    printf("Bienvenue dans le jeu du Morpion !\n");
 
     while (jeuEnCours) {
         afficherGrille(grille);
