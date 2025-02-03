@@ -35,7 +35,7 @@ int main() {
         // Vérifie si la grille est pleine (égalité)
         else if (estPlein(grille)) {
             afficherGrille(grille);
-            printf("Match nul! Il n'y a aucun gagnant.\n");
+            printf("Match nul! Il n'y a aucungagnant.\n");
             jeuEnCours = 0;
         }
 
