@@ -43,7 +43,7 @@ int main() {
         joueurActuel = (joueurActuel == 'X') ? 'O' : 'X';
     }
 
-    printf("Merci d'avoir joué, à la prochaine !\n");
+    printf("Merci d'avoi joué, à la prochaine !\n");
     return 0;
 }
 
