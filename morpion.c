@@ -23,7 +23,7 @@ int main() {
         afficherGrille(grille);
 
         // Le joueur actuel joue son tour
-        printf("C'est au tour du joueur %c.\n", joueurActuel);
+        printf("C'est autour du joueur %c.\n", joueurActuel);
         jouerTour(grille, joueurActuel);
 
         // Vérifie si le joueur a gagné
