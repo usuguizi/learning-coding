@@ -23,7 +23,7 @@ int main() {
         afficherGrille(grille);
 
         // Le joueur actuel joue son tour
-        printf("C'est autour du joueur %c.\n", joueurActuel);
+        printf("C'est au tour du joueur %c.\n", joueurActuel);
         jouerTour(grille, joueurActuel);
 
         // Vérifie si le joueur a gagné
@@ -43,7 +43,7 @@ int main() {
         joueurActuel = (joueurActuel == 'X') ? 'O' : 'X';
     }
 
-    printf("Merci d'avoir joué, à la prochaine !\n");
+    printf("Merci d'avoir joué,à la prochaine !\n");
     return 0;
 }
 
