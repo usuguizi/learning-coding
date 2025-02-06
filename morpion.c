@@ -29,7 +29,7 @@ int main() {
         // Vérifie si le joueur a gagné
         if (verifierVictoire(grille, joueurActuel)) {
             afficherGrille(grille);
-            printf("Félicitations ! Le joueur %c vient de remporter la partie!\n", joueurActuel);
+            printf("Félicitations! Le joueur %c vient de remporter la partie!\n", joueurActuel);
             jeuEnCours = 0;
         }
         // Vérifie si la grille est pleine (égalité)
