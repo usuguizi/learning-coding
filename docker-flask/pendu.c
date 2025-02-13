@@ -17,7 +17,7 @@ int main() {
     int wordLength;
 
     printf("=== Jeu du Pendu ===\n");
-    printf("Joueur1, entrez un mot (max %d lettres) : ", MAX_WORD_LENGTH);
+    printf("Joueur 1, entrez un mot (max %d lettres) : ", MAX_WORD_LENGTH);
     scanf("%s", word);
     
     wordLength = strlen(word);
@@ -46,7 +46,7 @@ int main() {
 
         if (!correctGuess) {
             attemptsLeft--;
-            printf("\nMauvais choix !\n");
+            printf("\nMauvaischoix !\n");
         } else {
             printf("\nBonne lettre !\n");
         }
