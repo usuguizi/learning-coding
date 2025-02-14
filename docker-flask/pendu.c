@@ -48,11 +48,11 @@ int main() {
             attemptsLeft--;
             printf("\nMauvais choix !\n");
         } else {
-            printf("\nBonnelettre !\n");
+            printf("\nBonne lettre !\n");
         }
 
         if (checkWin(revealed, wordLength)) {
-            printf("\nFélicitations! Vous avez deviné le mot : %s\n", word);
+            printf("\nFélicitations ! Vous avez deviné le mot : %s\n", word);
             return 0;
         }
     }
