@@ -48,7 +48,7 @@ int main() {
             attemptsLeft--;
             printf("\nMauvais choix !\n");
         } else {
-            printf("\nBonne lettre !\n");
+            printf("\nBonnelettre !\n");
         }
 
         if (checkWin(revealed, wordLength)) {
