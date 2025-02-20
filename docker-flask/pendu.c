@@ -46,7 +46,7 @@ int main() {
 
         if (!correctGuess) {
             attemptsLeft--;
-            printf("\nMauvaischoix !\n");
+            printf("\nMauvais choix !\n");
         } else {
             printf("\nBonne lettre !\n");
         }
@@ -57,7 +57,7 @@ int main() {
         }
     }
 
-    printf("\nVous avez perdu ! Le mot était : %s\n", word);
+    printf("\nVous avezperdu ! Le mot était : %s\n", word);
     return 0;
 }
 
