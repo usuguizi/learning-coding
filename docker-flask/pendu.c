@@ -46,13 +46,13 @@ int main() {
 
         if (!correctGuess) {
             attemptsLeft--;
-            printf("\nMauvais choix !\n");
+            printf("\nMauvaischoix !\n");
         } else {
             printf("\nBonne lettre !\n");
         }
 
         if (checkWin(revealed, wordLength)) {
-            printf("\nFélicitations! Vous avezdeviné le mot : %s\n", word);
+            printf("\nFélicitations! Vous avez deviné le mot : %s\n", word);
             return 0;
         }
     }
