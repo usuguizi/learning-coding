@@ -46,7 +46,7 @@ int main() {
 
         if (!correctGuess) {
             attemptsLeft--;
-            printf("\nMauvais choix !\n");
+            printf("\nMauvaischoix !\n");
         } else {
             printf("\nBonne lettre !\n");
         }
