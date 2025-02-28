@@ -52,7 +52,7 @@ int main() {
         }
 
         if (checkWin(revealed, wordLength)) {
-            printf("\nFélicitations! Vous avez deviné le mot : %s\n", word);
+            printf("\nFélicitations! Vous avezdeviné le mot : %s\n", word);
             return 0;
         }
     }
