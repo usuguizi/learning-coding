@@ -57,7 +57,7 @@ int main() {
         }
     }
 
-    printf("\nVous avez perdu! Le motétait : %s\n", word);
+    printf("\nVous avez perdu! Le mot était : %s\n", word);
     return 0;
 }
 
