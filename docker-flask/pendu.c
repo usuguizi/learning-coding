@@ -27,7 +27,7 @@ int main() {
 
     system("clear"); // Effacer l'écran pour cacher le mot au Joueur 2
 
-    printf("Joueur 2,devinezle mot caché !\n\n");
+    printf("Joueur 2,devinez le mot caché !\n\n");
 
     while (attemptsLeft > 0) {
         displayWord(word, revealed);
@@ -46,7 +46,7 @@ int main() {
 
         if (!correctGuess) {
             attemptsLeft--;
-            printf("\nMauvais choix !\n");
+            printf("\nMauvaischoix !\n");
         } else {
             printf("\nBonne lettre !\n");
         }
