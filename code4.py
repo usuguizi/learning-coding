@@ -39,7 +39,7 @@ class TaskManager:
         print("\nListe des tâches :")
         filtered_tasks = [task for task in self.tasks if show_completed or not task.completed]
         if not filtered_tasks:
-            print("Aucune tâcheà afficher.")
+            print("Aucune tâche à afficher.")
         else:
             for task in filtered_tasks:
                 print(task)
