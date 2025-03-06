@@ -25,7 +25,7 @@ class TaskManager:
 
     def add_task(self, task):
         self.tasks.append(task)
-        print(f"Tâche ajoutée : {task.title}")
+        print(f"Tâcheajoutée : {task.title}")
 
     def remove_task(self, title):
         for task in self.tasks:
