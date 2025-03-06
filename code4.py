@@ -33,7 +33,7 @@ class TaskManager:
                 self.tasks.remove(task)
                 print(f"Tâche supprimée : {title}")
                 return
-        print("Tâche non trouvée.")
+        print("Tâche nontrouvée.")
 
     def list_tasks(self, show_completed=False):
         print("\nListe destâches :")
