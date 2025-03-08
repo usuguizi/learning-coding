@@ -36,7 +36,7 @@ class TaskManager:
         print("Tâche nontrouvée.")
 
     def list_tasks(self, show_completed=False):
-        print("\nListe des tâches :")
+        print("\nListe destâches :")
         filtered_tasks = [task for task in self.tasks if show_completed or not task.completed]
         if not filtered_tasks:
             print("Aucune tâche à afficher.")
