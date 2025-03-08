@@ -31,15 +31,15 @@ class TaskManager:
         for task in self.tasks:
             if task.title == title:
                 self.tasks.remove(task)
-                print(f"Tâchesupprimée : {title}")
+                print(f"Tâche supprimée : {title}")
                 return
         print("Tâche nontrouvée.")
 
     def list_tasks(self, show_completed=False):
-        print("\nListe destâches :")
+        print("\nListe des tâches :")
         filtered_tasks = [task for task in self.tasks if show_completed or not task.completed]
         if not filtered_tasks:
-            print("Aucune tâcheà afficher.")
+            print("Aucune tâche à afficher.")
         else:
             for task in filtered_tasks:
                 print(task)
