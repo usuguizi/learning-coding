@@ -31,7 +31,7 @@ class TaskManager:
         for task in self.tasks:
             if task.title == title:
                 self.tasks.remove(task)
-                print(f"Tâche supprimée : {title}")
+                print(f"Tâchesupprimée : {title}")
                 return
         print("Tâche nontrouvée.")
 
