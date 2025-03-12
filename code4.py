@@ -72,7 +72,7 @@ if __name__ == "__main__":
         print("2. Supprimer une tâche")
         print("3. Listerles tâches")
         print("4. Marquer une tâche comme terminée")
-        print("5. Lister lestâches en retard")
+        print("5. Lister lestâchesen retard")
         print("6. Quitter")
         print("============================================")
 
