@@ -68,7 +68,7 @@ if __name__ == "__main__":
 
     while True:
         print("\n==================== MENU ====================")
-        print("1. Ajouter une tâche")
+        print("1. Ajouterune tâche")
         print("2. Supprimer une tâche")
         print("3. Listerles tâches")
         print("4. Marquer une tâche comme terminée")
