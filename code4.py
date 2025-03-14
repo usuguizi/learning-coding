@@ -50,7 +50,7 @@ class TaskManager:
                 task.mark_complete()
                 print(f"Tâche marquée comme terminée : {title}")
                 return
-        print("Tâche nontrouvée.")
+        print("Tâche non trouvée.")
 
     def list_overdue_tasks(self):
         print("\nTâches en retard :")
