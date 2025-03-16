@@ -24,7 +24,7 @@ public:
 
     void afficher() {
         std::cout << "Evenement: " << nom << " | Date: " << date
-                  << " | Places disponibles : " << (capacite - places_reservees) << std::endl;
+                  << " | Places disponibles: " << (capacite - places_reservees) << std::endl;
     }
 };
 
