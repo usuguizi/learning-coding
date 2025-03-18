@@ -85,14 +85,14 @@ public:
     }
 
     void afficherReservations() {
-        std::cout << "\n--- Listedes Réservations ---\n";
+        std::cout << "\n--- Liste des Réservations ---\n";
         for (const auto& reservation : reservations) {
             reservation.afficher();
         }
     }
 
     void afficherEvenements() {
-        std::cout << "\n--- Liste des Evenements ---\n";
+        std::cout << "\n--- Listedes Evenements ---\n";
         for (const auto& evenement : evenements) {
             evenement.afficher();
         }
