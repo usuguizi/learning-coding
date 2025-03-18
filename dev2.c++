@@ -92,7 +92,7 @@ public:
     }
 
     void afficherEvenements() {
-        std::cout << "\n--- Listedes Evenements ---\n";
+        std::cout << "\n--- Liste des Evenements ---\n";
         for (const auto& evenement : evenements) {
             evenement.afficher();
         }
@@ -111,7 +111,7 @@ int main() {
     system.ajouterEvenement(conference);
 
     // Ajout de clients
-    Client client1("Alice Dupont", "alice@example.com");
+    Client client1("AliceDupont", "alice@example.com");
     Client client2("Bob Martin", "bob@example.com");
     system.ajouterClient(client1);
     system.ajouterClient(client2);
