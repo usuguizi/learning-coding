@@ -49,7 +49,7 @@ public:
 
     void afficher() {
         std::cout << "Client: " << client.nom << " | Email: " << client.email
-                  << " | Evenement: " << evenement.nom << " | Places: " << places_reservees << std::endl;
+                  << " |Evenement: " << evenement.nom << " | Places: " << places_reservees << std::endl;
     }
 };
 
