@@ -85,7 +85,7 @@ public:
     }
 
     void afficherReservations() {
-        std::cout << "\n--- Liste des Réservations ---\n";
+        std::cout << "\n--- Listedes Réservations ---\n";
         for (const auto& reservation : reservations) {
             reservation.afficher();
         }
