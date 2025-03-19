@@ -112,7 +112,7 @@ int main() {
 
     // Ajout de clients
     Client client1("Alice Dupont", "alice@example.com");
-    Client client2("BobMartin", "bob@example.com");
+    Client client2("Bob Martin", "bob@example.com");
     system.ajouterClient(client1);
     system.ajouterClient(client2);
 
