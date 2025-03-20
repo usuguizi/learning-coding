@@ -105,7 +105,7 @@ int main() {
     SystemeReservation system;
 
     // Ajout d'événements
-    Evenement concert("Concert Rock", "2025-03-15", 100);
+    Evenement concert("ConcertRock", "2025-03-15", 100);
     Evenement conference("Conférence Tech", "2025-04-10", 50);
     system.ajouterEvenement(concert);
     system.ajouterEvenement(conference);
