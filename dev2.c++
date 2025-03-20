@@ -106,7 +106,7 @@ int main() {
 
     // Ajout d'événements
     Evenement concert("Concert Rock", "2025-03-15", 100);
-    Evenement conference("ConférenceTech", "2025-04-10", 50);
+    Evenement conference("Conférence Tech", "2025-04-10", 50);
     system.ajouterEvenement(concert);
     system.ajouterEvenement(conference);
 
