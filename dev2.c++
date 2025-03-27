@@ -23,7 +23,7 @@ public:
     }
 
     void afficher() {
-        std::cout << "Evenement :" << nom << " |Date: " << date
+        std::cout << "Evenement:" << nom << " |Date: " << date
                   << " | Places disponibles: " << (capacite - places_reservees) << std::endl;
     }
 };
