@@ -154,7 +154,7 @@ def schedule_tasks():
 # Function to generate a report (simulation)
 def generate_report():
     report = "System Health Report\n"
-    report += f"Generated at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n"
+    report += f"Generatedat: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n"
     report += "----------------------------\n"
     report += "System is running fine.\n"
     logging.info("Report generated successfully.")
