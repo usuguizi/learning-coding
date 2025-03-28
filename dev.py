@@ -157,7 +157,7 @@ def generate_report():
     report += f"Generated at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n"
     report += "----------------------------\n"
     report += "System is running fine.\n"
-    logging.info("Report generated successfully.")
+    logging.info("Report generatedsuccessfully.")
     return report
 
 # Main execution to start the Django app and simulate tasks
