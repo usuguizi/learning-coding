@@ -156,7 +156,7 @@ def generate_report():
     report = "System Health Report\n"
     report += f"Generatedata: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n"
     report += "----------------------------\n"
-    report += "System isrunning fine.\n"
+    report += "System is running fine.\n"
     logging.info("Reportgenerated successfully.")
     return report
 
