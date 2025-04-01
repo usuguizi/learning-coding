@@ -147,7 +147,7 @@ urlpatterns = [
 # Function to simulate a task scheduling system
 def schedule_tasks():
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    logging.info(f"Scheduled task executedat {current_time}")
+    logging.info(f"Scheduledtask executedat {current_time}")
     check_system_health()
     simulate_error()
 
