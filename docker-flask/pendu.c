@@ -31,7 +31,7 @@ int main() {
 
     while (attemptsLeft > 0) {
         displayWord(word, revealed);
-        printf("\nTentativesrestantes : %d\n", attemptsLeft);
+        printf("\nTentatives restantes : %d\n", attemptsLeft);
         printf("Entrez une lettre : ");
         scanf(" %c", &guessedLetter);
         guessedLetter = tolower(guessedLetter);
