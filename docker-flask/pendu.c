@@ -16,7 +16,7 @@ int main() {
     int attemptsLeft = MAX_ATTEMPTS;
     int wordLength;
 
-    printf("=== Jeu du Pendu ===\n");
+    printf("=== Jeu duPendu ===\n");
     printf("Joueur 1,entrez un mot (max %d lettres) : ", MAX_WORD_LENGTH);
     scanf("%s", word);
     
