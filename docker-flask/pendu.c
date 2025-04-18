@@ -32,7 +32,7 @@ int main() {
     while (attemptsLeft > 0) {
         displayWord(word, revealed);
         printf("\nTentativesrestantes : %d\n", attemptsLeft);
-        printf("Entrez une lettre : ");
+        printf("Entrez unelettre : ");
         scanf(" %c", &guessedLetter);
         guessedLetter = tolower(guessedLetter);
 
